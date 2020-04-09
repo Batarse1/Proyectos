@@ -1,0 +1,45 @@
+REQUISITOS DEL SISTEMA:
+-Procesador: Intel Pentium IV o equivalente a 2.6GHz.
+-RAM: 2GB.
+-Disco duro: 850 MB de espacio libre.
+-Tener un entorno de desarrollo para lenguajes de programación (IDE).
+-Un compilador de c++11 o superior.
+
+INSTRUCCIONES PARA CORRER EL JUEGO:
+1.Descargar el código main.cpp.
+2.Adjuntar el código main.cpp a un proyecto existente en su IDE o crear un nuevo
+proyecto y copiar y pegar el código main.cpp.
+3.Seleccionar la opción de "Correr" o "Run" en su IDE (asegúrese que está corriendo
+el programa correcto).
+4.Una vez haya corrido el programa le aparecerá un menú de opciones, tendrá que
+digitar cualquiera de los siguientes números indicados en la consola:
+  4.1. Digite 1 en la consola para jugar directamente Blackjack.
+  4.2. Digite 2 para desplegar las instrucciones del juego.
+  4.3. Digite 3 para salir.
+
+INSTRUCCIONES DE JUEGO:
+1. El objetivo principal del juego es vencer la mano del crupier(dealer) sin pasarse de 21.
+
+2. Las cartas del 2 al 10 valen lo que indica el número en la cara de la carta. Las cartas con figuras valen 10, a excepción del AS, que vale 1 u 11.
+
+3. Una vez inicia el juego cada jugador recibe dos cartas, y el crupier una. Si se obtiene 21 con las primeras dos cartas, es un BlackJack.
+
+4. Cada jugador tiene 2 opciones, Pedir Carta ó Plantarse. Si un jugador se pasa de 21, este pierde automáticamente.
+ 
+5. El turno del crupier solo empieza después de todos los jugadores. Si posee 16 o menos, debe pedir carta. Si tiene 17 o mas, debe plantarse.
+ 
+6. Si el crupier y el jugador poseen el mismo puntaje, entonces es empate.
+
+7. Si el crupier y el jugador se pasan de 21, la casa gana.
+        
+Durante el juego las probabilidades de obtener 21 serán desplegadas en pantalla para cada jugador
+
+CREDITOS
+
+Ricardo Adrian Aparicio Lemus 00032219
+Fernando Daniel Gonzalez Batarse 00014419
+Daniel Alfredo Quesada Cortez 00147619
+Diego Alessandro Rodriguez Villalta 00101519
+
+Carrera: Ingeniería informatica
+Primer año Ciclo 02
